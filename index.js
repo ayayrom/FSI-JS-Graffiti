@@ -19,4 +19,9 @@ let images = document.querySelectorAll('.dog-image')
 for(let i = 0; i < images.length; i++){
     images[i].style.transform = 'rotate(180deg)';
 }
+
+let dogDesc = document.querySelectorAll('.dog-description');
+for(let i = 0; i < dogDesc.length; i++){
+    dogDesc[i].style.fontFamily = 'sans-serif';
+}
 // Select some elements...
